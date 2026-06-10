@@ -2,11 +2,14 @@
   "name": "luminor-booking",
   "version": "2.0.0",
   "description": "LUMINOR — Sistema de agendamento audiovisual premium",
-  "main": "backend/server.js",
+  {
+  "name": "luminor-booking",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "start":  "node backend/server.js",
-    "dev":    "nodemon backend/server.js"
-  },
+    "start": "node server.js"
+  }
+},
   "dependencies": {
     "cors":               "^2.8.5",
     "dotenv":             "^16.3.1",
