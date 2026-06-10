@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUMINOR — Produção Audiovisual Cinematográfica</title>
+<meta name="description" content="LUMINOR é uma produtora audiovisual premium especializada em narrativas cinematográficas, filmes para marcas, casamentos, eventos e experiências visuais que ficam na memória.">
+<meta name="keywords" content="produtora audiovisual, vídeos cinematográficos, produção de vídeo premium, filmagem de casamento, vídeo institucional, drone, LUMINOR">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://luminor.com.br/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://luminor.com.br/">
+<meta property="og:title" content="LUMINOR — Produção Audiovisual Cinematográfica">
+<meta property="og:description" content="Transformamos histórias em experiências cinematográficas. Produção audiovisual premium para marcas, eventos e momentos que importam.">
+<meta property="og:image" content="assets/og-cover.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="LUMINOR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LUMINOR — Produção Audiovisual Cinematográfica">
+<meta name="twitter:description" content="Transformamos histórias em experiências cinematográficas.">
+<meta name="twitter:image" content="assets/og-cover.jpg">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoProductionCompany",
+  "name": "LUMINOR",
+  "description": "Produtora audiovisual cinematográfica premium",
+  "url": "https://luminor.com.br",
+  "sameAs": [
+    "https://instagram.com/luminor",
+    "https://youtube.com/luminor"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "availableLanguage": "Portuguese"
+  }
+}
+</script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── LOADER ── -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-bar"></div>
+  <span class="loader-word">LUMINOR</span>
+</div>
+
+<!-- ── CURSOR ── -->
+<div class="cur" id="cur" aria-hidden="true"></div>
+<div class="cur-ring" id="curRing" aria-hidden="true"></div>
+
+<!-- ── NAV ── -->
+<header class="nav" id="nav" role="banner">
+  <a href="#" class="nav-logo" aria-label="LUMINOR — início">LUMINOR</a>
+
+  <button class="nav-burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+    <span></span><span></span>
+  </button>
+
+  <nav id="navMenu" role="navigation" aria-label="Menu principal">
+    <a href="#servicos">Serviços</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#depoimentos">Clientes</a>
+    <a href="#contato">Contato</a>
+    <a href="booking.html" class="nav-cta">Agendar</a>
+  </nav>
+</header>
+
+<!-- ── HERO ── -->
+<section class="hero" aria-label="Seção principal">
+  <div class="hero-media">
+    <video autoplay muted loop playsinline poster="assets/hero-poster.jpg" aria-hidden="true">
+      <source src="assets/hero-video.mp4" type="video/mp4">
+    </video>
+    <!-- Fallback gradient quando não há vídeo -->
+    <div class="hero-fallback" aria-hidden="true"></div>
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <!-- Linha vermelha vertical — assinatura visual -->
+  <div class="hero-redline" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow" aria-label="Subtítulo">Cinematic Visual Storytelling</p>
+    <h1 class="hero-title">
+      Transformamos<br>
+      <em>histórias</em> em<br>
+      experiências.
+    </h1>
+    <p class="hero-sub">Produção audiovisual cinematográfica para marcas,<br class="br-desk"> eventos e momentos que precisam durar para sempre.</p>
+    <div class="hero-actions">
+      <a href="booking.html" class="btn btn-red">Solicitar orçamento</a>
+      <a href="#portfolio" class="btn btn-ghost">Ver portfólio</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <span class="hero-scroll-line"></span>
+    <span class="hero-scroll-label">Rolar</span>
+  </div>
+</section>
+
+<!-- ── NÚMEROS ── -->
+<section class="numbers" aria-label="Números da LUMINOR">
+  <div class="numbers-inner">
+    <div class="number-item reveal">
+      <strong class="number-val" data-count="100">0</strong>
+      <span>projetos<br>entregues</span>
+    </div>
+    <div class="number-item reveal" style="--d:.1s">
+      <strong class="number-val" data-count="50">0</strong>
+      <span>clientes<br>atendidos</span>
+    </div>
+    <div class="number-item reveal" style="--d:.2s">
+      <strong class="number-val" data-count="98">0</strong>
+      <span>% de<br>satisfação</span>
+    </div>
+    <div class="number-item reveal" style="--d:.3s">
+      <strong class="number-val" data-count="5">0</strong>
+      <span>anos de<br>mercado</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVIÇOS ── -->
+<section id="servicos" class="section" aria-labelledby="svc-title">
+  <div class="section-label reveal">O que criamos</div>
+  <h2 id="svc-title" class="section-title reveal">Cada projeto é uma<br><em>narrativa única.</em></h2>
+
+  <div class="services-grid">
+
+    <article class="svc-card reveal" style="--d:.05s">
+      <div class="svc-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="6" width="20" height="14" rx="2"/><path d="M16 2l4 4-4 4M8 2L4 6l4 4"/></svg>
+      </div>
+      <h3>Produção Audiovisual</h3>
+      <p>Do conceito à entrega, criamos obras visuais com direção cinematográfica, iluminação profissional e pós-produção de alto padrão.</p>
+      <ul class="svc-benefits" aria-label="Benefícios">
+        <li>Direção criativa completa</li>
+        <li>Iluminação cinematográfica</li>
+        <li>Color grading profissional</li>
+      </ul>
+    </article>
+
+    <article class="svc-card reveal" style="--d:.1s">
+      <div class="svc-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M22 9V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2"/><path d="M14 12H9m0 0 3-3m-3 3 3 3"/></svg>
+      </div>
+      <h3>Vídeos Institucionais</h3>
+      <p>Posicione sua empresa com um filme que comunica valores, cultura e autoridade de forma sofisticada e memorável.</p>
+      <ul class="svc-benefits" aria-label="Benefícios">
+        <li>Roteiro estratégico</li>
+        <li>Entrevistas e depoimentos</li>
+        <li>Identidade visual aplicada</li>
+      </ul>
+    </article>
+
+    <article class="svc-card reveal" style="--d:.15s">
+      <div class="svc-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      </div>
+      <h3>Cobertura de Eventos</h3>
+      <p>Registramos cada detalhe com múltiplas câmeras, captando a energia e emoção do seu evento com precisão cinematográfica.</p>
+      <ul class="svc-benefits" aria-label="Benefícios">
+        <li>Múltiplas câmeras</li>
+        <li>Transmissão ao vivo</li>
+        <li>Edição express</li>
+      </ul>
+    </article>
+
+    <article class="svc-card reveal" style="--d:.2s">
+      <div class="svc-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      </div>
+      <h3>Casamentos</h3>
+      <p>O dia mais especial merece ser eternizado com cuidado artístico. Criamos um filme que conta a história de vocês com emoção real.</p>
+      <ul class="svc-benefits" aria-label="Benefícios">
+        <li>Filme principal + highlights</li>
+        <li>Same day edit disponível</li>
+        <li>Entrega em 4K</li>
+      </ul>
+    </article>
+
+    <article class="svc-card reveal" style="--d:.25s">
+      <div class="svc-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/><path d="M12 8v4l3 3"/></svg>
+      </div>
+      <h3>Captação com Drone</h3>
+      <p>Perspectivas aéreas que ampliam a grandiosidade de qualquer projeto. Piloto certificado pela ANAC para operações seguras.</p>
+      <ul class="svc-benefits" aria-label="Benefícios">
+        <li>Piloto certificado ANAC</li>
+        <li>4K / 60fps</li>
+        <li>Autorização de espaço aéreo</li>
+      </ul>
+    </article>
+
+    <article class="svc-card reveal" style="--d:.3s">
+      <div class="svc-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      </div>
+      <h3>Conteúdo para Redes</h3>
+      <p>Vídeos estratégicos otimizados para cada plataforma — Reels, Shorts, Stories — com estética premium e performance comprovada.</p>
+      <ul class="svc-benefits" aria-label="Benefícios">
+        <li>Formatos multi-plataforma</li>
+        <li>Roteiro com copywriting</li>
+        <li>Pacotes mensais</li>
+      </ul>
+    </article>
+
+    <article class="svc-card reveal" style="--d:.35s">
+      <div class="svc-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+      </div>
+      <h3>Publicidade</h3>
+      <p>Campanhas publicitárias em vídeo que criam desejo, autoridade e conexão. Da estratégia ao clap final, totalmente na LUMINOR.</p>
+      <ul class="svc-benefits" aria-label="Benefícios">
+        <li>Conceito e estratégia</li>
+        <li>Produção completa</li>
+        <li>Versões para mídia paga</li>
+      </ul>
+    </article>
+
+    <!-- Card CTA -->
+    <article class="svc-card svc-card--cta reveal" style="--d:.4s">
+      <p>Tem um projeto diferente em mente?</p>
+      <h3>Vamos conversar.</h3>
+      <a href="booking.html" class="btn btn-red">Solicitar orçamento</a>
+    </article>
+
+  </div>
+</section>
+
+<!-- ── PORTFÓLIO ── -->
+<section id="portfolio" class="section section--dark" aria-labelledby="port-title">
+  <div class="section-label reveal">Portfólio</div>
+  <h2 id="port-title" class="section-title reveal">Projetos que ficam<br><em>na memória.</em></h2>
+
+  <!-- Filtros -->
+  <div class="port-filters reveal" role="tablist" aria-label="Filtrar portfólio por categoria">
+    <button class="pf-btn active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+    <button class="pf-btn" data-filter="institucional" role="tab" aria-selected="false">Institucional</button>
+    <button class="pf-btn" data-filter="comercial" role="tab" aria-selected="false">Comercial</button>
+    <button class="pf-btn" data-filter="eventos" role="tab" aria-selected="false">Eventos</button>
+    <button class="pf-btn" data-filter="casamentos" role="tab" aria-selected="false">Casamentos</button>
+    <button class="pf-btn" data-filter="drone" role="tab" aria-selected="false">Drone</button>
+    <button class="pf-btn" data-filter="documentarios" role="tab" aria-selected="false">Documentários</button>
+  </div>
+
+  <div class="port-grid" id="portGrid" role="list">
+
+    <article class="port-card" data-cat="comercial" role="listitem">
+      <div class="port-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e);">
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-hover-info">
+          <a href="https://youtu.be/5Q00u6X8Bbg" target="_blank" rel="noopener noreferrer" class="port-watch" aria-label="Assistir Ryuki Furukawa">Assistir →</a>
+        </div>
+      </div>
+      <div class="port-meta">
+        <div>
+          <h3 class="port-title">Ryuki Furukawa</h3>
+          <p class="port-client">YouTube</p>
+        </div>
+        <div class="port-tags">
+          <span class="port-cat">Comercial</span>
+          <span class="port-year">2024</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="port-card port-card--tall" data-cat="eventos" role="listitem">
+      <div class="port-thumb" style="background:linear-gradient(135deg,#2d1b69,#11998e);">
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-hover-info">
+          <a href="https://www.instagram.com/reel/DUjbY4OkdLf/" target="_blank" rel="noopener noreferrer" class="port-watch" aria-label="Assistir Formatura">Assistir →</a>
+        </div>
+      </div>
+      <div class="port-meta">
+        <div>
+          <h3 class="port-title">Formatura</h3>
+          <p class="port-client">Instagram</p>
+        </div>
+        <div class="port-tags">
+          <span class="port-cat">Eventos</span>
+          <span class="port-year">2024</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="port-card" data-cat="casamentos" role="listitem">
+      <div class="port-thumb" style="background:linear-gradient(135deg,#4a1942,#c94b4b);">
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-hover-info">
+          <a href="https://www.instagram.com/reel/DXaUoddEWGp/" target="_blank" rel="noopener noreferrer" class="port-watch" aria-label="Assistir Casamento">Assistir →</a>
+        </div>
+      </div>
+      <div class="port-meta">
+        <div>
+          <h3 class="port-title">Casamento</h3>
+          <p class="port-client">Instagram</p>
+        </div>
+        <div class="port-tags">
+          <span class="port-cat">Casamentos</span>
+          <span class="port-year">2024</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="port-card port-card--wide" data-cat="institucional" role="listitem">
+      <div class="port-thumb" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);">
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-hover-info">
+          <span class="port-upcoming">Em breve</span>
+        </div>
+      </div>
+      <div class="port-meta">
+        <div>
+          <h3 class="port-title">Projeto Institucional</h3>
+          <p class="port-client">Próxima entrega</p>
+        </div>
+        <div class="port-tags">
+          <span class="port-cat">Institucional</span>
+          <span class="port-year">2025</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="port-card" data-cat="drone" role="listitem">
+      <div class="port-thumb" style="background:linear-gradient(135deg,#141e30,#243b55);">
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-hover-info">
+          <span class="port-upcoming">Em breve</span>
+        </div>
+      </div>
+      <div class="port-meta">
+        <div>
+          <h3 class="port-title">Vista Aérea</h3>
+          <p class="port-client">Captação Drone</p>
+        </div>
+        <div class="port-tags">
+          <span class="port-cat">Drone</span>
+          <span class="port-year">2025</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="port-card" data-cat="documentarios" role="listitem">
+      <div class="port-thumb" style="background:linear-gradient(135deg,#2c1654,#a44c6b);">
+        <div class="port-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <div class="port-hover-info">
+          <span class="port-upcoming">Em breve</span>
+        </div>
+      </div>
+      <div class="port-meta">
+        <div>
+          <h3 class="port-title">Documentário</h3>
+          <p class="port-client">Produção autoral</p>
+        </div>
+        <div class="port-tags">
+          <span class="port-cat">Documentários</span>
+          <span class="port-year">2025</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ── SOBRE ── -->
+<section id="sobre" class="section" aria-labelledby="about-title">
+  <div class="about-wrap">
+
+    <div class="about-text">
+      <div class="section-label reveal">Sobre a LUMINOR</div>
+      <h2 id="about-title" class="section-title reveal">Narrativa visual<br><em>com intenção.</em></h2>
+
+      <p class="about-p reveal" style="--d:.1s">
+        A LUMINOR nasceu da crença de que toda história merece ser contada com a mesma dedicação que um cineasta dedica ao seu filme. Somos uma produtora audiovisual movida pela obsessão por imagens que comunicam, emocionam e permanecem.
+      </p>
+      <p class="about-p reveal" style="--d:.2s">
+        Cada projeto começa com uma pergunta simples: <em>o que essa imagem precisa fazer sentir?</em> A resposta guia cada decisão — da luz ao corte, do roteiro à entrega.
+      </p>
+
+      <div class="about-pillars reveal" style="--d:.3s">
+        <div class="pillar">
+          <strong>Missão</strong>
+          <p>Transformar histórias em experiências visuais que conectam marcas e pessoas com autenticidade.</p>
+        </div>
+        <div class="pillar">
+          <strong>Visão</strong>
+          <p>Ser referência em produção audiovisual cinematográfica no Brasil, reconhecida pela excelência e impacto das narrativas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-diferenciais reveal" style="--d:.15s" aria-label="Diferenciais">
+      <div class="dif-item">
+        <span class="dif-num" aria-hidden="true">01</span>
+        <div>
+          <strong>Direção cinematográfica</strong>
+          <p>Cada projeto tem um diretor dedicado, não apenas um operador de câmera.</p>
+        </div>
+      </div>
+      <div class="dif-item">
+        <span class="dif-num" aria-hidden="true">02</span>
+        <div>
+          <strong>Equipamento de alto padrão</strong>
+          <p>Câmeras cinema, lentes prime, iluminação profissional e drones certificados.</p>
+        </div>
+      </div>
+      <div class="dif-item">
+        <span class="dif-num" aria-hidden="true">03</span>
+        <div>
+          <strong>Pós-produção autoral</strong>
+          <p>Color grading exclusivo que cria a identidade visual única de cada cliente.</p>
+        </div>
+      </div>
+      <div class="dif-item">
+        <span class="dif-num" aria-hidden="true">04</span>
+        <div>
+          <strong>Entrega no prazo</strong>
+          <p>Processo organizado e comunicação transparente do briefing à entrega final.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── DEPOIMENTOS ── -->
+<section id="depoimentos" class="section section--dark" aria-labelledby="dep-title">
+  <div class="section-label reveal">Clientes</div>
+  <h2 id="dep-title" class="section-title reveal">O que dizem<br><em>sobre nós.</em></h2>
+
+  <div class="testimonials-grid">
+
+    <blockquote class="testi-card reveal" style="--d:.05s">
+      <div class="testi-stars" aria-label="5 estrelas">★★★★★</div>
+      <p>"A LUMINOR transformou completamente a imagem da nossa empresa. O vídeo institucional superou todas as nossas expectativas — profissional, criativo e com uma narrativa que realmente conecta."</p>
+      <footer>
+        <strong>Carlos Mendes</strong>
+        <span>CEO, Grupo Mendes</span>
+      </footer>
+    </blockquote>
+
+    <blockquote class="testi-card reveal" style="--d:.1s">
+      <div class="testi-stars" aria-label="5 estrelas">★★★★★</div>
+      <p>"Nosso casamento foi filmado com uma sensibilidade incrível. Cada vez que assistimos ao filme, revivemos emoções que achávamos impossíveis de capturar. Simplesmente perfeito."</p>
+      <footer>
+        <strong>Ana & Rafael</strong>
+        <span>Casamento — São Paulo</span>
+      </footer>
+    </blockquote>
+
+    <blockquote class="testi-card reveal" style="--d:.15s">
+      <div class="testi-stars" aria-label="5 estrelas">★★★★★</div>
+      <p>"Contratamos para a cobertura do nosso evento corporativo e ficamos impressionados com a organização, discrição e qualidade final. Resultado cinematográfico de verdade."</p>
+      <footer>
+        <strong>Mariana Costa</strong>
+        <span>Diretora de Marketing, TechCorp</span>
+      </footer>
+    </blockquote>
+
+  </div>
+
+  <!-- Logos de clientes -->
+  <div class="clients-logos reveal" aria-label="Alguns de nossos clientes">
+    <div class="clients-title">Alguns clientes</div>
+    <div class="clients-row">
+      <div class="client-logo">Grupo<br>Mendes</div>
+      <div class="client-logo">Tech<br>Corp</div>
+      <div class="client-logo">Studio<br>Arte</div>
+      <div class="client-logo">Eventos<br>Elite</div>
+      <div class="client-logo">Brand<br>House</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTATO / CTA ── -->
+<section id="contato" class="section cta-section" aria-labelledby="cta-title">
+  <div class="cta-wrap reveal">
+    <div class="cta-redline" aria-hidden="true"></div>
+    <p class="cta-eyebrow">Próximo passo</p>
+    <h2 id="cta-title" class="cta-title">Vamos construir<br><em>algo memorável.</em></h2>
+    <p class="cta-sub">Entre em contato ou agende uma conversa. Sem compromisso, sem enrolação.</p>
+    <div class="cta-actions">
+      <a href="booking.html" class="btn btn-red">Agendar conversa</a>
+      <div class="cta-links">
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da LUMINOR">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+        <a href="https://instagram.com/luminor" target="_blank" rel="noopener noreferrer" aria-label="Instagram da LUMINOR">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          Instagram
+        </a>
+        <a href="mailto:contato@luminor.com.br" aria-label="E-mail da LUMINOR">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          E-mail
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo">LUMINOR</span>
+      <p>Produção audiovisual cinematográfica</p>
+    </div>
+    <nav class="footer-nav" aria-label="Links do rodapé">
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="booking.html">Agendar</a>
+    </nav>
+    <div class="footer-legal">
+      <p>© <span id="year"></span> LUMINOR. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
